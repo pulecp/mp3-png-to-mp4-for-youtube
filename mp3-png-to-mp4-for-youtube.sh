@@ -1,13 +1,13 @@
 #!/bin/bash
 
-# $1 = image.png
-# $2 = sound.mp3
+# $1 = image with any name.png
+# $2 = sound with any name.mp3
 # $3 = length of mp3
 
 # thanks ron999 in this tread http://ubuntuforums.org/showthread.php?t=1502537
 
 if [ $# -ne 2 ]; then 
-	echo "Usage: ./$0 image.png sound.mp3";
+	echo "Usage: ./$0 image with any name.png sound with any name.mp3";
 	echo "Exiting...";
 	exit 1;
 fi
