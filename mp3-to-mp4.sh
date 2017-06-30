@@ -10,6 +10,12 @@ if [ $# -ne 1 ]; then
 	exit 1;
 fi
 
+if [ ${1: -4} != ".mp3" ]; then
+	echo "$1 is not an mp3 file";
+	echo "Exiting...";
+	exit 1;
+fi
+
 length=`sox "$1" -n stat 2>&1 | sed -n 's#^Length (seconds):[^0-9]*\([0-9.]*\)$#\1#p'`
 h=`basename "$1" .mp3`.mp4
 
