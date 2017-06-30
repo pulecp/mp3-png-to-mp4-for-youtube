@@ -14,6 +14,10 @@ Thanks user ron999 in this tread http://ubuntuforums.org/showthread.php?t=150253
 
 `./mp3-to-mp4 "my sound.mp3"`
 
+To convert entire folder from mp3 to mp4, use:
+
+`for f in ./folder-name/*; do ./mp3-to-mp4.sh "$f"; done`
+
 ## Requirements
 
 mmpeg, sox (http://sox.sourceforge.net/sox.html) and unix-like machine :)
