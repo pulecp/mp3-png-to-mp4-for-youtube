@@ -10,11 +10,11 @@ Thanks user ron999 in this tread http://ubuntuforums.org/showthread.php?t=150253
 
 ## Usage
 
-./mp3-png-to-mp4-for-youtube "my image.png" "my sound.mp3"
+`./mp3-png-to-mp4-for-youtube "my image.png" "my sound.mp3"`
 
-./mp3-to-mp4 "my sound.mp3"
+`./mp3-to-mp4 "my sound.mp3"`
 
-##Requirements
+## Requirements
 
 mmpeg, sox (http://sox.sourceforge.net/sox.html) and unix-like machine :)
 
