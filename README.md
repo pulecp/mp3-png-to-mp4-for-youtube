@@ -1,4 +1,4 @@
-mp3-png-to-mp4-for-youtube
+mp3-to-mp4
 ==========================
 
 Convert mp3 and png image to mp4 for upload on youtube thanks mmpeg.
@@ -10,9 +10,9 @@ Thanks user ron999 in this tread http://ubuntuforums.org/showthread.php?t=150253
 
 ## Usage
 
-`./mp3-png-to-mp4-for-youtube "my image.png" "my sound.mp3"`
+`./mp3-png-to-mp4.sh "my image.png" "my sound.mp3"`
 
-`./mp3-to-mp4 "my sound.mp3"`
+`./mp3-to-mp4.sh "my sound.mp3"`
 
 To convert entire folder from mp3 to mp4, use:
 
